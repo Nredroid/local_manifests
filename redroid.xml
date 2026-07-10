@@ -5,7 +5,6 @@
     <!-- Our own components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid"/>
     <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="redroid" revision="master" clone-depth="1" />
-    <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="redroid" revision="master" />
     <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="redroid" revision="master" />
 
 </manifest>
