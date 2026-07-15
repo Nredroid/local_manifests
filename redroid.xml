@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="redroid" fetch="https://github.com/Nredroid/" revision="redroid-17.0.0" />
-
+    <!-- Remove Origin Mesa3d -->
+    <remove-project name="platform/external/mesa3d" />
+    <!-- Add Waydroid Mesa3d -->
+    <project path="external/mesa3d" name="android_external_mesa3d" remote="redroid" clone-depth="1" revision="refs/heads/lineage-18.1" />
     <!-- Our own components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid"/>
     <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="redroid" revision="master" clone-depth="1" />
