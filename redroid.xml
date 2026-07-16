@@ -6,6 +6,7 @@
     <remove-project name="platform/external/libva" />
     <remove-project name="platform/external/libdrm" />
     <remove-project name="platform/external/libva-utils" />
+    <remove-project name="platform/external/gmmlib" />
     <!-- Add Waydroid Repos -->
     <project path="external/libdrm" name="android_external_libdrm" remote="redroid" clone-depth="1" revision="refs/heads/lineage-24.0" />
     <project path="external/libva-utils" name="libva-utils" clone-depth="1" remote="redroid" revision="refs/tags/2.23.0" />
