@@ -12,7 +12,6 @@
     <project path="external/llvm-project" name="external_llvm-project" remote="redroid" clone-depth="1" revision="refs/heads/release_22.x"/>
     <project path="external/mesa3d" name="android_external_mesa3d" remote="redroid" clone-depth="1" revision="refs/heads/lineage-18.1" />
     <project path="external/libva" name="android_external_libva" clone-depth="1" remote="redroid" revision="refs/heads/14-x86" />
-    <project path="external/libevdev" name="android_external_libevdev" clone-depth="1" remote="redroid" revision="refs/heads/lineage-22.2" />
     <!-- Our own components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid"/>
     <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="redroid" revision="master" clone-depth="1" />
