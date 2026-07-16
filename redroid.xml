@@ -3,7 +3,8 @@
     <remote name="redroid" fetch="https://github.com/Nredroid/" revision="redroid-17.0.0" />
     <!-- Remove Origin Repos -->
     <remove-project name="platform/external/mesa3d" />
-      <remove-project name="platform/external/libva" />
+    <remove-project name="platform/external/libva" />
+    <remove-project name="platform/external/libva-utils" />
     <!-- Add Waydroid Repos -->
     <project path="external/libva-utils" name="libva-utils" clone-depth="1" remote="redroid" revision="refs/tags/2.23.0" />
     <project path="external/llvm-project" name="external_llvm-project" remote="redroid" clone-depth="1" revision="refs/heads/release_22.x"/>
