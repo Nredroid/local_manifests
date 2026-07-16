@@ -5,6 +5,8 @@
     <remove-project name="platform/external/mesa3d" />
       <remove-project name="platform/external/libva" />
     <!-- Add Waydroid Repos -->
+    <project path="external/libva-utils" name="libva-utils" clone-depth="1" remote="redroid" revision="refs/tags/2.23.0" />
+    <project path="external/llvm-project" name="external_llvm-project" remote="redroid" clone-depth="1" revision="refs/heads/release_22.x"/>
     <project path="external/mesa3d" name="android_external_mesa3d" remote="redroid" clone-depth="1" revision="refs/heads/lineage-18.1" />
     <project path="external/libva" name="android_external_libva" clone-depth="1" remote="redroid" revision="refs/heads/14-x86" />
     <!-- Our own components -->
