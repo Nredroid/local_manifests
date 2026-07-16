@@ -17,7 +17,6 @@
     <project path="external/gmmlib" name="gmmlib" clone-depth="1" remote="redroid" revision="master" />
     <!-- Our own components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid"/>
-    <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="redroid" revision="master" clone-depth="1" />
     <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="redroid"/>
 
 </manifest>
